@@ -1,8 +1,8 @@
 # Identificação
 
-* Nome: 
-* Email (@ccc): 
-* Matrícula: 
+* Nome: Alisson dos Reis de Amarante
+* Email (@ccc): alisson.amarante@ccc.ufcg.edu.br
+* Matrícula: 121210685
 
 # Roteiro: Fila de Prioridade
 
