@@ -4,6 +4,7 @@ public class Heap {
     
     private int[] heap;
     private int tail;
+
     
     public Heap(int capacidade) {
         this.heap = new int[capacidade];

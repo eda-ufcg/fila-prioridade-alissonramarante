@@ -9,9 +9,23 @@ public class InsereOrdenadoFilaPrioridade implements FilaPrioridade {
 		this.last = -1;
 		this.head = -1;
 	}
+	public boolean isEmpty(){
+		return head == -1;
+	}
+	
 	
 	// criar um Pair e inserir de forma ordenada decrescente no array.
-	public void add(String elemento, int prioridade) {}
+	public void add(String elemento, int prioridade) {
+		
+		Pair newPair = new Pair(elemento, prioridade);
+
+		if(this.isEmpty()){
+			head += 1;
+			fila[head] = newPair;
+		}
+		
+
+	}
 
 
 	// remover e retornar o primeiro elemento do array, que é o de maior prioridade. lembrar manipular head e tail
